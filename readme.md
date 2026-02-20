@@ -1,12 +1,3 @@
-# eCommerce Accesible - Prototipo Basado en Modelo Alkosto
-
-Este proyecto consiste en el diseño y documentación de un sistema de comercio electrónico centrado en la **accesibilidad universal**, siguiendo las pautas **WCAG 2.2 AA** y fundamentado en los principios del **SWEBOK**.
-
-## 🚀 Enlaces del Proyecto
-* **Prototipo Interactivo (Figma):** [PEGA AQUÍ EL LINK DE SHARE DE FIGMA]
-* **Video Demo (YouTube/Drive):** [PEGA AQUÍ EL LINK DEL VIDEO EN LA CARPETA /DEMO]
-
----
 
 ## 📂 Estructura del Repositorio
 
@@ -27,4 +18,5 @@ Este proyecto consiste en el diseño y documentación de un sistema de comercio 
 │   ├── diagramas.puml        # Código fuente de diagramas (PlantUML)
 │   └── guia-estilos.md       # Guía de estilo (Colores, Tipografía, UI)
 └── /demo                    # Video demostrativo
+
     └── demo_flujo.mp4        # Explicación de navegación y accesibilidad
