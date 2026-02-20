@@ -1,0 +1,19 @@
+@startuml
+package "Interfaz de Usuario (Figma Wireframe)" {
+  [Home Page] --> [Category Grid]
+  [Category Grid] --> [PLP (Listado)]
+  [PLP (Listado)] --> [PDP (Detalle)]
+}
+
+package "Componentes de Accesibilidad" {
+  [Filtros de Contraste] -- [Capa de Estilos]
+  [Lector de Voz] -- [Metadatos ARIA]
+  [Navegación Teclado] -- [Gestor de Focus]
+}
+
+database "Catálogo de Productos" {
+  [Base de Datos] --> [Carga Adaptativa]
+}
+
+[Carga Adaptativa] ..> [PLP (Listado)] : Optimiza para conexiones lentas
+@enduml
